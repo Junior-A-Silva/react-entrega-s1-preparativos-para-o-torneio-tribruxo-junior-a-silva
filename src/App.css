@@ -1,3 +1,20 @@
 .App {
   text-align: center;
+  justify-content: center;
+  width: 1200px;
+
+  margin: auto;
+}
+main {
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }

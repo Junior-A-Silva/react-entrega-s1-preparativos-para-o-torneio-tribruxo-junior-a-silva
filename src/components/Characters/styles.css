@@ -1,0 +1,15 @@
+.charCardAlive {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+}
+.charCardDead {
+  width: 200px;
+  height: 100px;
+  background-color: lightpink;
+}
+.charCardUnknown {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
