@@ -5,7 +5,7 @@ function CharCard({ characterList }) {
     <div>
       <ul>
         {characterList.map((item, index) => (
-          <li key={item.id} className="charCard">
+          <li key={index} className="charCard">
             <Characters characterList={characterList} id={Number(index)} />
           </li>
         ))}

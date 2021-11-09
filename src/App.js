@@ -11,16 +11,14 @@ function App() {
       .then((response) => setCharacterList(response));
   }, []);
 
-  let filteredCharacterList = [];
+  let filteredCharacterList = characterList
+    .filter((item) => item.image !== "")
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3);
 
-  for (let indice = 0; indice < 3; indice++) {
-    filteredCharacterList[indice] = characterList[indice];
-  }
-
-  console.log(filteredCharacterList);
   return (
     <div className="App">
-      <h1>Meus personagens</h1>
+      <h1>Harry Potter</h1>
       <main>
         <CharCard characterList={filteredCharacterList} />
       </main>

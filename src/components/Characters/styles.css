@@ -1,15 +1,7 @@
-.charCardAlive {
-  width: 200px;
-  height: 100px;
-  background-color: lightgreen;
+img {
+  margin-top: 10px;
+  max-height: 150px;
 }
-.charCardDead {
-  width: 200px;
-  height: 100px;
-  background-color: lightpink;
-}
-.charCardUnknown {
-  width: 200px;
-  height: 100px;
-  background-color: lightblue;
+.characterName {
+  margin-top: 10px;
 }

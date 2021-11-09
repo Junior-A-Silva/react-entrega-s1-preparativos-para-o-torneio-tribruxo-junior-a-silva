@@ -1,6 +1,30 @@
-.charCard {
-  width: 200px;
-  height: 100px;
+.charCardGryffindor {
+  width: 250px;
+  height: 250px;
+  border: 5px lightblue solid;
+  border-radius: 10px;
+}
+.charCardSlytherin {
+  width: 250px;
+  height: 250px;
+  border: 5px lightgreen solid;
+  border-radius: 10px;
+}
+.charCardRavenclaw {
+  width: 250px;
+  height: 250px;
+  border: 5px orange solid;
+  border-radius: 10px;
+}
+.charCardHufflepuff {
+  width: 250px;
+  height: 250px;
+  border: 5px pink solid;
+  border-radius: 10px;
+}
+.charCardUnknown {
+  width: 250px;
+  height: 250px;
   border: 5px black solid;
   border-radius: 10px;
 }
