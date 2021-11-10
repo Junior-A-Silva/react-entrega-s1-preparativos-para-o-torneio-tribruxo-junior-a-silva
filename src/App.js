@@ -27,7 +27,7 @@ function App() {
   let filteredCharacterList03 = characterList
     .filter((item) => item.image !== "")
     .sort(() => Math.random() - 0.5)
-    .filter((item) => item.house === "Ravenclaw")
+    .filter((item) => item.house === "Ravenclaw" || item.house === "Hufflepuff")
     .sort(() => Math.random() - 0.5)
     .slice(0, 1);
 
