@@ -1,26 +1,25 @@
 @media (max-width: 425px) {
   body {
     background-color: #fefefe;
+    display: flex;
+    align-items: center;
     margin: auto;
-    max-width: 90vw;
+    justify-content: center;
   }
   .App {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 90vw;
     margin: auto;
-    margin-left: 2%;
-    margin-right: 2%;
   }
   main {
     width: 80vw;
     justify-content: center;
-    margin: auto;
-    margin-left: 2%;
-    margin-right: 2%;
+    text-align: center;
+    justify-content: center;
     display: flex;
+    flex-direction: column;
   }
   ul {
     list-style: none;
@@ -43,7 +42,6 @@
     text-align: center;
     justify-content: center;
     width: 1200px;
-
     margin: auto;
   }
   main {
