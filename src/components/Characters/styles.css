@@ -1,7 +1,18 @@
-img {
-  margin-top: 10px;
-  max-height: 150px;
+@media (min-width: 425px) {
+  img {
+    margin-top: 25px;
+    max-height: 150px;
+  }
+  .characterName {
+    margin-top: 10px;
+  }
 }
-.characterName {
-  margin-top: 10px;
+@media (max-width: 425px) {
+  img {
+    margin-top: 10px;
+    max-height: 150px;
+  }
+  .characterName {
+    margin-top: 10px;
+  }
 }

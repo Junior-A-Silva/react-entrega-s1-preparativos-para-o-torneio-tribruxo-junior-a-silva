@@ -11,23 +11,27 @@ function App() {
       .then((response) => setCharacterList(response));
   }, []);
 
+  let houses = ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"].sort(
+    () => Math.random() - 0.5
+  );
+
   let filteredCharacterList01 = characterList
     .filter((item) => item.image !== "")
     .sort(() => Math.random() - 0.5)
-    .filter((item) => item.house === "Gryffindor")
+    .filter((item) => item.house === houses[0])
     .slice(0, 1);
 
   let filteredCharacterList02 = characterList
     .filter((item) => item.image !== "")
     .sort(() => Math.random() - 0.5)
-    .filter((item) => item.house === "Slytherin")
+    .filter((item) => item.house === houses[1])
     .sort(() => Math.random() - 0.5)
     .slice(0, 1);
 
   let filteredCharacterList03 = characterList
     .filter((item) => item.image !== "")
     .sort(() => Math.random() - 0.5)
-    .filter((item) => item.house === "Ravenclaw" || item.house === "Hufflepuff")
+    .filter((item) => item.house === houses[2] || item.house === houses[3])
     .sort(() => Math.random() - 0.5)
     .slice(0, 1);
 

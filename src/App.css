@@ -37,6 +37,7 @@
 @media (min-width: 425px) {
   body {
     background-color: #fefefe;
+    margin-top: 75px;
   }
   .App {
     text-align: center;

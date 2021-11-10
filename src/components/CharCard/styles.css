@@ -1,37 +1,80 @@
-.charCardGryffindor {
-  width: 250px;
-  height: 250px;
-  border: 5px lightblue solid;
-  border-radius: 10px;
+@media (max-width: 425px) {
+  .charCardGryffindor {
+    width: 220px;
+    height: 220px;
+    border: 5px lightblue solid;
+    border-radius: 10px;
+  }
+  .charCardSlytherin {
+    width: 220px;
+    height: 220px;
+    border: 5px lightgreen solid;
+    border-radius: 10px;
+  }
+  .charCardRavenclaw {
+    width: 220px;
+    height: 220px;
+    border: 5px orange solid;
+    border-radius: 10px;
+  }
+  .charCardHufflepuff {
+    width: 220px;
+    height: 220px;
+    border: 5px pink solid;
+    border-radius: 10px;
+  }
+  .charCardUnknown {
+    width: 220px;
+    height: 220px;
+    border: 5px black solid;
+    border-radius: 10px;
+  }
+  ul {
+    list-style: none;
+    margin: 1px;
+  }
+  li {
+    margin: 5px;
+    padding: 3px;
+    margin-bottom: 0px;
+  }
 }
-.charCardSlytherin {
-  width: 250px;
-  height: 250px;
-  border: 5px lightgreen solid;
-  border-radius: 10px;
-}
-.charCardRavenclaw {
-  width: 250px;
-  height: 250px;
-  border: 5px orange solid;
-  border-radius: 10px;
-}
-.charCardHufflepuff {
-  width: 250px;
-  height: 250px;
-  border: 5px pink solid;
-  border-radius: 10px;
-}
-.charCardUnknown {
-  width: 250px;
-  height: 250px;
-  border: 5px black solid;
-  border-radius: 10px;
-}
-ul {
-  list-style: none;
-}
-li {
-  margin: 5px;
-  padding: 3px;
+@media (min-width: 425px) {
+  .charCardGryffindor {
+    width: 210px;
+    height: 250px;
+    border: 5px lightblue solid;
+    border-radius: 10px;
+  }
+  .charCardSlytherin {
+    width: 210px;
+    height: 250px;
+    border: 5px lightgreen solid;
+    border-radius: 10px;
+  }
+  .charCardRavenclaw {
+    width: 210px;
+    height: 250px;
+    border: 5px orange solid;
+    border-radius: 10px;
+  }
+  .charCardHufflepuff {
+    width: 210px;
+    height: 250px;
+    border: 5px pink solid;
+    border-radius: 10px;
+  }
+  .charCardUnknown {
+    width: 210px;
+    height: 250px;
+    border: 5px black solid;
+    border-radius: 10px;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 5px;
+    padding: 3px;
+  }
 }
